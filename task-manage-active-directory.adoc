@@ -1,0 +1,47 @@
+---
+sidebar: sidebar 
+permalink: task-manage-active-directory.html 
+keywords: active directory, dns, domain, dns servers, smb server 
+summary: 'Si vous avez changé vos serveurs DNS ou votre domaine Active Directory, vous devez modifier le serveur SMB dans Cloud Volumes Service afin qu"il puisse continuer à fournir du stockage aux clients.' 
+---
+= Gérez votre configuration Active Directory
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Si vous avez changé vos serveurs DNS ou votre domaine Active Directory, vous devez modifier le serveur SMB dans Cloud Volumes Service afin qu'il puisse continuer à fournir du stockage aux clients.
+
+.Étapes
+. Ouvrir l'environnement de travail.
+. Cliquez sur le bouton image:screenshot_gallery_options.gif["Une icône avec trois points"] En haut de la page, cliquez sur *gérer Active Directory*.
++
+Si aucun Active Directory n'est configuré, vous pouvez en ajouter un maintenant. Si l'un d'eux est configuré, vous pouvez modifier ou supprimer les paramètres à l'aide du image:screenshot_gallery_options.gif["Une icône avec trois points"] bouton.
+
+. Spécifiez les paramètres du serveur SMB :
++
+[cols="25,75"]
+|===
+| Champ | Description 
+
+
+| Adresse IP principale DNS | Les adresses IP des serveurs DNS qui fournissent une résolution de nom pour le serveur SMB. Utilisez une virgule pour séparer les adresses IP lorsque vous faites référence à plusieurs serveurs, par exemple 172.31.25.223, 172.31.2.74. 
+
+
+| Domaine Active Directory à rejoindre | Le FQDN du domaine Active Directory (AD) que vous souhaitez que le serveur SMB rejoint. 
+
+
+| Nom NetBIOS du serveur SMB | Nom NetBIOS du serveur SMB qui sera créé. 
+
+
+| Informations d'identification autorisées à rejoindre le domaine | Nom et mot de passe d'un compte Windows disposant de privilèges suffisants pour ajouter des ordinateurs à l'unité d'organisation spécifiée dans le domaine AD. 
+
+
+| Unité organisationnelle | Unité organisationnelle au sein du domaine AD à associer au serveur SMB. La valeur par défaut est CN=Computers pour les connexions à votre propre serveur Windows Active Directory. 
+|===
+. Cliquez sur *Enregistrer* pour enregistrer vos paramètres.
+

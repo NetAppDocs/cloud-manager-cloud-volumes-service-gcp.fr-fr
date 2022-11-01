@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="5b049ba81786d3cb662b3737cb8dbf9d" category="summary">NetApp Cloud Volumes Service pour Google Cloud vous permet d'ajouter rapidement des workloads multiprotocoles et de créer et déployer aussi bien des applications Windows que UNIX.</block>
+  <block id="e946962d2bea46b9a982a912efacd934" category="doc">En savoir plus sur Cloud Volumes Service pour Google Cloud</block>
+  <block id="be01a357ae2c9752875b5385c732b017" category="section-title">Fonctionnalités clés</block>
+  <block id="23b980511a5ced3b4103908bdb170f43" category="list-text">Migrez les données entre votre infrastructure sur site et Google Cloud.</block>
+  <block id="97672826879203835fb8d5d5635b629f" category="list-text">Provisionnez des volumes de 1 à 100 Tio en quelques secondes.</block>
+  <block id="684d4a33eb829a2bc82fd1070b5a3d1e" category="list-text">Prise en charge multiprotocole (vous pouvez créer un volume NFS ou SMB).</block>
+  <block id="7ae2f6cdaa02d5b8678d14f3f489a073" category="list-text">Protection des données grâce à des copies Snapshot automatisées et efficaces</block>
+  <block id="17872268d34a8da9354d5922e34fce78" category="list-text">Accélérez le développement d'applications grâce au clonage rapide.</block>
+  <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">Le coût</block>
+  <block id="fd17cbb3db356dbaaa35d12e13567cab" category="paragraph">Les volumes créés par Cloud Volumes Service pour Google Cloud sont facturés pour votre abonnement au service, et non par BlueXP (anciennement Cloud Manager).</block>
+  <block id="b3153827b11df26704c2e383b3744bc7" category="paragraph">Il n'y a aucun frais pour découvrir une région ou un volume Cloud Volumes Service pour Google Cloud depuis BlueXP.</block>
+  <block id="bf3796a4651f53d9a137d45e05610b30" category="inline-link-macro">Consultez le prix sur Google Cloud Marketplace</block>
+  <block id="8e1046c4123260638fe451866f95441f" category="paragraph"><block ref="8e1046c4123260638fe451866f95441f" category="inline-link-macro-rx"></block></block>
+  <block id="8c4b25218155a1fdb972f4169855d04f" category="section-title">Régions prises en charge</block>
+  <block id="b781da83c6614728483efd98a6c45ff6" category="inline-link">Consultez les régions Google Cloud prises en charge</block>
+  <block id="939e2552f14c2db1e32edf892141ef1f" category="paragraph"><block ref="939e2552f14c2db1e32edf892141ef1f" category="inline-link-rx"></block></block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="section-title">Avant de commencer</block>
+  <block id="ba1ec04f6bf2ff4dcb3909ab4182292d" category="inline-link">Documentation NetApp Cloud Volumes Service pour Google Cloud</block>
+  <block id="acda26e32c6c45684cc6e4d9d34572cb" category="paragraph">BlueXP peut découvrir les abonnements et volumes Cloud Volumes Service pour GCP existants. Voir la<block ref="8cef80fbd20b45fcd51e638492e90799" category="inline-link-rx"></block> si vous n'avez pas encore configuré votre abonnement.</block>
+  <block id="20c404f3ca0633629eee9b1b4ccd6737" category="section-title">Obtenir de l'aide</block>
+  <block id="c53a96d0d98c2dc96155a20e8df0172d" category="paragraph">Utilisez le chat BlueXP pour des questions générales sur le fonctionnement de Cloud Volumes Service dans BlueXP.</block>
+  <block id="10f5b4e8583801dbea2ede6fbb4e4ae4" category="paragraph">Pour toute question d'ordre général sur Cloud Volumes Service pour Google Cloud, envoyez un e-mail à l'équipe Google Cloud de NetApp à l'adresse gcinfo@netapp.com.</block>
+  <block id="bd32907910f13f745e4c4ad31b8b85f3" category="inline-link-macro">obtenir de l'aide</block>
+  <block id="8ce70b43ef3817ffad1e3c9c2e6eb7fe" category="paragraph">Pour tout problème technique lié à vos volumes cloud, vous pouvez créer un dossier de support technique à partir de Google Cloud Console. Voir <block ref="1229b64310846c261ec2fb9cb0c3c4af" category="inline-link-macro-rx"></block> pour plus d'informations.</block>
+  <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="section-title">Liens connexes</block>
+  <block id="d51fa5f4ad125ac84151a2b270209fff" category="inline-link">NetApp BlueXP : Cloud Volumes Service pour Google Cloud</block>
+  <block id="e733ab7fe70716f6a8ac15ccc73cba45" category="list-text"><block ref="e733ab7fe70716f6a8ac15ccc73cba45" category="inline-link-rx"></block></block>
+  <block id="4025377504ab93e000f14fb259cf7ed8" category="list-text"><block ref="4025377504ab93e000f14fb259cf7ed8" category="inline-link-rx"></block></block>
+  <block id="597907fb22ffd6d5d99abe19205161d6" category="summary">Pour commencer rapidement, suivez ces étapes ou suivez les liens ci-dessous pour obtenir plus d'informations.</block>
+  <block id="04476610d425410da3c197a32de6a851" category="doc">Démarrage rapide de Cloud Volumes Service pour Google Cloud</block>
+  <block id="245601b4ea40e651b249dd4137f77c21" category="paragraph">Depuis Google, activez l'API Cloud Volumes Service pour GCP afin que BlueXP puisse gérer les abonnements et les volumes cloud.</block>
+  <block id="95b3ec34634e3102d6acf0de3fc1d2fc" category="inline-link-macro">Découvrez comment activer l'API</block>
+  <block id="09343065e2ebc25d01e7ea8194218f67" category="paragraph"><block ref="9726afe0fed23e53ca72118b2c823abb" category="inline-link-macro-rx"></block>.</block>
+  <block id="b4db720a6f69a27aed45fbdd1ab4b6ed" category="paragraph">Depuis Google, créez un compte de service et un rôle afin que BlueXP puisse accéder à votre compte Cloud Volumes Service pour Google Cloud.</block>
+  <block id="46b491767cd12d81f9bf9593f5a96cf7" category="inline-link-macro">Découvrez comment configurer un compte de service</block>
+  <block id="28d2901977b5fc7c248b5b66937c0876" category="paragraph"><block ref="73d99899af631bbb52840dc78039ca4d" category="inline-link-macro-rx"></block>.</block>
+  <block id="6a122cba956a734449e67334e4204f2d" category="paragraph">Dans BlueXP, cliquez sur *Ajouter un environnement de travail* &gt; *Google Cloud* &gt; *Cloud Volumes Service*, puis fournissez des détails sur le compte de service et le projet Google Cloud.</block>
+  <block id="328958ba41a282fb8b8b971eb10845bd" category="inline-link-macro">Découvrez comment créer un environnement de travail</block>
+  <block id="75aec57e5da1cc40dc30b7d1be476ab4" category="paragraph"><block ref="87d286565b204dd2a8d4bf83463a6fe9" category="inline-link-macro-rx"></block>.</block>
+  <block id="546e8223d9ca3eac26f1c4607fe857c4" category="summary">Vous pouvez supprimer un abonnement Cloud Volumes Service pour Google Cloud et tous les volumes existants de BlueXP. Les volumes ne sont pas supprimés, ils sont simplement supprimés de l'interface BlueXP.</block>
+  <block id="b85b36830c35b1e3b85c911b3cd549f3" category="doc">Retirez Cloud Volumes Service de BlueXP</block>
+  <block id="b14d1e068c8031b86314c9902472be25" category="admonition">La suppression de votre abonnement Cloud Volumes Service pour Google Cloud de BlueXP n'est pas prise en charge. Pour ce faire, vous pouvez utiliser la console Google Cloud.</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Étapes</block>
+  <block id="6c970f68c7cf5a446d127ac3ab6d72f7" category="list-text">Ouvrir l'environnement de travail.</block>
+  <block id="6a9903314020e84e3af325216666825e" category="inline-image-macro">Une icône avec trois points.</block>
+  <block id="c2f82cf362208ba8433ec2ba2152c7e3" category="list-text">Cliquez sur le bouton <block ref="8891ca04a345a35bd7da25d57718d9b7" category="inline-image-macro-rx" type="image"></block> En haut de la page, cliquez sur *Supprimer Cloud Volumes Service*.</block>
+  <block id="d6781b097f0c80fef5a0f286b314592a" category="list-text">Dans la boîte de dialogue de confirmation, cliquez sur *Supprimer*.</block>
+  <block id="fcbfae6c2a0f17d8dec232cd9458d76d" category="summary">NetApp Cloud Volumes Service pour Google Cloud est un service de fichiers intégré avec des fonctionnalités avancées de gestion de données qui assure les performances, la disponibilité et la sécurité nécessaires pour migrer et exécuter vos workloads dans le cloud. Ces documents expliquent comment gérer Cloud Volumes Service pour Google Cloud à l'aide de NetApp BlueXP.</block>
+  <block id="c164c685163f0ac5277f4c117b8c9c2c" category="doc">Documentation Cloud Volumes Service pour Google Cloud</block>
+  <block id="93456289ee6ad1673b37dffa674f01e0" category="summary">Créez un environnement de travail Cloud Volumes Service pour Google Cloud dans BlueXP pour créer et gérer des volumes et des snapshots.</block>
+  <block id="5747722bb189495cdccebf12276e2ffd" category="doc">Créez un environnement de travail Cloud Volumes Service pour Google Cloud</block>
+  <block id="e7a6701903bcc055d76abe5f57735fc4" category="paragraph">Créez un environnement de travail Cloud Volumes Service pour Google Cloud dans BlueXP afin que vous puissiez créer et gérer des volumes et des snapshots.</block>
+  <block id="4dd9c591139d8d343bfac0ba8317d5ab" category="paragraph">Que vous ayez déjà créé des volumes depuis Google Cloud Console ou que vous vous abonnez à Cloud Volumes Service pour Google Cloud et que vous ne possédez pas de volumes, la première étape consiste à créer un environnement de travail pour les volumes basés sur votre abonnement GCP.</block>
+  <block id="e3c3a0b2e9bccb0ed0678e6d2b6e5101" category="paragraph">Si des volumes cloud existent déjà pour cet abonnement, les volumes apparaîtront dans le nouvel environnement de travail. Si vous n'avez pas encore ajouté de volumes cloud pour l'abonnement GCP, cela se produit une fois que vous avez créé le nouvel environnement de travail.</block>
+  <block id="b7c67692dc38dca98edc62b4b29f83d8" category="admonition">Si vous avez des abonnements et des volumes dans plusieurs projets Google Cloud, vous devez effectuer cette tâche pour chaque projet.</block>
+  <block id="107a414e0bf62dc36bb6bbde7bcd19de" category="paragraph">Vous devez disposer des informations suivantes lors de l'ajout d'un abonnement pour chaque projet :</block>
+  <block id="61d55eb42b926e824d916fc29d4b2127" category="list-text">Identifiants de compte de service (clé privée JSON que vous avez téléchargée)</block>
+  <block id="7adea0d9c77aabccd8bb67ae0a832d59" category="list-text">Nom du projet</block>
+  <block id="5114ae3ab85ff57731d055145402aec3" category="list-text">Dans BlueXP, ajoutez un nouvel environnement de travail, sélectionnez l'emplacement *Google Cloud*, puis cliquez sur *Continuer*.</block>
+  <block id="5437257338a1645396ca701fba74ee19" category="list-text">Sélectionnez *Cloud Volumes Service* et cliquez sur *Continuer*.</block>
+  <block id="68aa8fd14019bf80c98f197ea78d6acc" category="inline-image-macro">Capture d'écran de l'ajout d'un environnement de travail pour un abonnement Cloud Volumes Service pour GCP</block>
+  <block id="e407814ff6ab4fb1b63ad38464f53b73" category="paragraph"><block ref="e407814ff6ab4fb1b63ad38464f53b73" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9080d954a7c1febdfca0a4458cd577b0" category="list-text">Fournir des informations sur votre abonnement Cloud Volumes Service :</block>
+  <block id="5a341ba1dd9ba8680efd382c4f5778ad" category="list-text">Entrez le nom de l'environnement de travail que vous souhaitez utiliser.</block>
+  <block id="56bab707c78784ba9b87a1e53b01fb02" category="list-text">Copiez/collez la clé privée JSON que vous avez téléchargée au cours des étapes précédentes.</block>
+  <block id="98061d4b41ea7e9a2f4ca7bbd84f29b8" category="list-text">Sélectionnez le nom de votre projet Google Cloud.</block>
+  <block id="26983a904e0717c520032a2178795368" category="list-text">Cliquez sur *Continuer*.</block>
+  <block id="756fe8c276796e025f6186df6fad79f9" category="inline-image-macro">Capture d'écran indiquant l'ajout d'identifiants pour un abonnement Cloud Volumes Service pour GCP.</block>
+  <block id="9abb056391b209b3886860757a68afa6" category="paragraph"><block ref="9abb056391b209b3886860757a68afa6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dfbd2b6430dbf5217b7290c6fd750ffd" category="paragraph">BlueXP affiche votre environnement de travail Cloud Volumes Service pour Google Cloud.</block>
+  <block id="9940ae9ac5b6e6e70ab66bca7f76d51f" category="inline-image-macro">Copie d'écran de l'environnement de travail Cloud Volumes Service pour Google Cloud.</block>
+  <block id="9e4d57614250697869bda0f9844b2597" category="paragraph"><block ref="9e4d57614250697869bda0f9844b2597" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b7d7c21e8643e79c0adcfe8f92bc9297" category="paragraph">Si des volumes cloud existent déjà pour cet abonnement, les volumes apparaissent dans le nouvel environnement de travail. Vous pouvez ajouter des volumes cloud supplémentaires depuis BlueXP.</block>
+  <block id="a1f2a018efc72b6fcf1f805684b3c31a" category="paragraph">Si aucun volume cloud n'existe pour cet abonnement, créez-les dès maintenant.</block>
+  <block id="3d0356467ac23a5028ee4d6562d2ec45" category="inline-link-macro">Démarrer la création de volumes</block>
+  <block id="0ddd57362a29de92618e7d7d2bbf5cd4" category="paragraph"><block ref="8d370122f83467764fea492e485dddbb" category="inline-link-macro-rx"></block>.</block>
+  <block id="243263104c829e77835d632f591230d5" category="summary">Avant d'ouvrir un dossier de demande de support auprès du support technique NetApp, vous devez ajouter un compte sur le site de support NetApp à BlueXP, puis vous inscrire pour bénéficier du support.</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">S'inscrire pour obtenir de l'aide</block>
+  <block id="8bf30fadf784022b073adb9233678a71" category="paragraph">Avant d'ouvrir un dossier de demande de support auprès du support technique NetApp, vous devez ajouter un compte sur le site du support NetApp (NSS) à BlueXP, puis vous inscrire pour obtenir du support.</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">Présentation de l'inscription au support</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">Il existe deux types d'inscription pour activer les droits d'assistance :</block>
+  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">Enregistrement de votre abonnement au support pour les identifiants de compte BlueXP (votre numéro de série à 20 chiffres 960xxxxxxxxx se trouve sur la page des ressources de support de BlueXP).</block>
+  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">Il sert d'ID d'abonnement unique pour tous les services de BlueXP. Chaque abonnement au support BlueXP au niveau du compte doit être enregistré.</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">Enregistrement des numéros de série Cloud Volumes ONTAP associés à un abonnement sur le marché de votre fournisseur cloud (numéros de série à 20 chiffres 909201xxxxxxxx).</block>
+  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">Ces numéros de série sont généralement appelés _PAYGO - numéros de série_ et sont générés par BlueXP au moment du déploiement de Cloud Volumes ONTAP.</block>
+  <block id="9d4125dc88bb9db6eb4be939905761ce" category="paragraph">L'enregistrement des deux types de numéros de série offre des fonctionnalités telles que l'ouverture de tickets de support et la génération automatique de tickets.</block>
+  <block id="98bc603dcb6d5a57d540b13b541fa41a" category="paragraph">La façon dont vous vous inscrivez dépend de votre présence ou de votre présence chez un client ou un partenaire nouveau ou existant.</block>
+  <block id="e5646198d2e01aab2cec9ef946f9c53a" category="list-text">Client ou partenaire existant</block>
+  <block id="76928f97884b4332b83c5be9b99d93d3" category="paragraph">En tant que client ou partenaire NetApp, vous pouvez utiliser votre compte SSO du site de support NetApp pour effectuer les enregistrements suivants. Dans le tableau de bord support, BlueXP fournit une page *NSS Management* où vous pouvez ajouter votre compte NSS. Une fois votre compte NSS ajouté, BlueXP enregistre automatiquement ces numéros de série pour vous.</block>
+  <block id="4e6af37fb81d50483d832d4de6e2b26a" category="inline-xref">Découvrez comment ajouter votre compte NSS</block>
+  <block id="8d80298f51b7ff2da78e26e60195c7a3" category="paragraph"><block ref="cbec7c1a4a2acff5e84457dd449ac01d" category="inline-xref-macro-rx"></block>.</block>
+  <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">Nouveaux partenaires NetApp</block>
+  <block id="679f2cae4657f177cc89458d49c97e5f" category="paragraph">Si vous êtes nouveau chez NetApp, vous devez enregistrer votre numéro de série BlueXP sur le site d'inscription du support NetApp. Une fois que vous avez terminé cette inscription et créé un nouveau compte NSS, vous pouvez utiliser ce compte dans BlueXP pour vous inscrire automatiquement à l'avenir.</block>
+  <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">Découvrez comment vous inscrire auprès de NetApp</block>
+  <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>.</block>
+  <block id="a92ec860f505b318fd0f0eba6165d607" category="section-title">Ajouter un compte NSS à BlueXP</block>
+  <block id="77bdda0b5be7d2725f2b5941d74db0e2" category="paragraph">Le tableau de bord du support vous permet d'ajouter et de gérer vos comptes du site de support NetApp pour les utiliser avec Cloud Manager.</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Si vous avez un compte au niveau du client, vous pouvez ajouter un ou plusieurs comptes NSS.</block>
+  <block id="4fde72c535fd0cd463dbeb49347cdfae" category="list-text">Si vous avez un compte partenaire ou revendeur, vous pouvez ajouter un ou plusieurs comptes NSS, mais ils ne peuvent pas être ajoutés en même temps que les comptes au niveau du client.</block>
+  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">Dans le coin supérieur droit de la console BlueXP, cliquez sur l'icône aide et sélectionnez *support*.</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Capture d'écran du menu aide où support est la première option répertoriée</block>
+  <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">Cliquez sur *NSS Management &gt; Ajouter un compte NSS*.</block>
+  <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">Lorsque vous y êtes invité, cliquez sur *Continuer* pour être redirigé vers une page de connexion Microsoft.</block>
+  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp utilise Microsoft Azure Active Directory comme fournisseur d'identités pour les services d'authentification spécifiques au support et aux licences.</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">Sur la page de connexion, indiquez l'adresse e-mail et le mot de passe que vous avez enregistrés sur le site de support NetApp pour réaliser le processus d'authentification.</block>
+  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">Ces actions permettent à BlueXP d'utiliser votre compte NSS pour des opérations telles que le téléchargement de licences, la vérification de la mise à niveau logicielle et les inscriptions de support futures.</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">Notez ce qui suit :</block>
+  <block id="0f0a0d646a020cf3a65ce82ada4cfb01" category="list-text">Le compte doit être un compte de niveau client (et non un compte invité ou temporaire).</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">Une icône de trois points horizontaux</block>
+  <block id="ff67299785d475e87002751aa6ab5eb8" category="list-text">Une fois la connexion établie, NetApp stockera le nom d'utilisateur NSS. Il s'agit d'un ID généré par le système qui correspond à votre courrier électronique. Sur la page *NSS Management*, vous pouvez afficher votre courriel à partir du <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> menu.</block>
+  <block id="505da61efe6bebebbaf092da18f64613" category="list-text">Si vous avez besoin d'actualiser vos jetons d'identification de connexion, il existe également une option *mettre à jour les informations d'identification* dans le <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> menu. Cette option vous invite à vous reconnecter.</block>
+  <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">Inscrivez-vous auprès de NetApp</block>
+  <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">Le fait de vous inscrire au support NetApp dépend de la présence ou non d'un compte sur le site de support NetApp (NSS).</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">Client existant avec un compte NSS</block>
+  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">Si vous êtes client NetApp avec un compte NSS, il vous suffit de vous inscrire pour obtenir du support dans BlueXP.</block>
+  <block id="25b94e7b58140f12be91fa8fd935fa59" category="list-text">Si ce n'est déjà fait, ajoutez votre compte NSS à BlueXP.</block>
+  <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">Sur la page *Ressources*, cliquez sur *s'inscrire au support*.</block>
+  <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">Capture d'écran indiquant le numéro de série d'un compte et l'option Register pour le support</block>
+  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">Client existant mais aucun compte NSS</block>
+  <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">Si vous êtes déjà client NetApp avec des licences et des numéros de série existants mais que _no_ NSS, il vous suffit de créer un compte NSS.</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">Formulaire d'inscription de l'utilisateur du site de support NetApp</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">Créez un compte sur le site de support NetApp en complétant le<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">Veillez à sélectionner le niveau d'utilisateur approprié, qui est généralement *client/utilisateur final NetApp*.</block>
+  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">Veillez à copier le numéro de série du compte BlueXP (960xxxx) utilisé ci-dessus pour le champ Numéro de série. Le traitement du compte sera ainsi accéléré.</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">Découvrez la toute nouvelle gamme NetApp</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">Si vous êtes nouveau chez NetApp et que vous ne disposez pas d'un compte NSS, effectuez chacune des étapes ci-dessous.</block>
+  <block id="59dd2a274c2c6a3cc5b3dce08109019d" category="list-text">Recherchez le numéro de série de votre compte Cloud Manager sur la page d'inscription au support.</block>
+  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">Site d'inscription au support NetApp</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">Accédez à<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> Et sélectionnez *je ne suis pas un client NetApp enregistré*.</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">Remplissez les champs obligatoires (ceux avec des astérisques rouges).</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">Dans le champ *Product Line*, sélectionnez *Cloud Manager*, puis votre fournisseur de facturation applicable.</block>
+  <block id="1192dec4cc2b923397748a651cef178f" category="list-text">Copiez le numéro de série de votre compte Cloud Manager depuis l'étape 2 ci-dessus, vérifiez la sécurité, puis lisez la Déclaration de confidentialité des données NetApp.</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">Un e-mail est immédiatement envoyé à la boîte aux lettres fournie pour finaliser cette transaction sécurisée. Assurez-vous de vérifier vos dossiers de courrier indésirable si l'e-mail de validation n'arrive pas dans quelques minutes.</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Confirmez l'action à partir de l'e-mail.</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">La confirmation de la soumission de votre demande à NetApp et vous recommande de créer un compte sur le site de support NetApp.</block>
+  <block id="d6cb31c22f8f843a781cccec33157281" category="list-text">Veillez à copier le numéro de série du compte Cloud Manager (960xxxx) utilisé ci-dessus pour le numéro de série. Le traitement du compte sera ainsi accéléré.</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">NetApp devrait vous contacter au cours de ce processus. Il s'agit d'un exercice d'intégration unique pour les nouveaux utilisateurs.</block>
+  <block id="1c0e45ef07d0dbc13ca2394d5e285fd7" category="paragraph">Une fois votre compte sur le site de support NetApp, vous pouvez accéder à BlueXP et ajouter ce compte NSS pour les inscriptions futures.</block>
+  <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp prend en charge BlueXP de plusieurs façons. De nombreuses options d'auto-assistance gratuites sont disponibles 24 h/24 et 7 j/7, comme des articles de la base de connaissances (KB) et un forum communautaire. Votre inscription au support inclut un support technique à distance via la création de tickets en ligne.</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">Obtenez de l'aide</block>
+  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp prend en charge BlueXP et ses services cloud de différentes manières. De nombreuses options d'auto-assistance gratuites sont disponibles 24 h/24 et 7 j/7, comme des articles de la base de connaissances (KB) et un forum communautaire. Votre inscription au support inclut un support technique à distance via la création de tickets en ligne.</block>
+  <block id="07d41912a6ab6b97216f8cf89e93205c" category="section-title">Auto-assistance</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">Ces options sont disponibles gratuitement, 24 heures sur 24, 7 jours sur 7 :</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">Base de connaissances</block>
+  <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
+  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">Recherchez dans la base de connaissances BlueXP des articles utiles pour résoudre les problèmes.</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">Communautés</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">Rejoignez la communauté BlueXP pour suivre des discussions en cours ou en créer de nouveaux.</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">Documentation</block>
+  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">La documentation BlueXP que vous consultez actuellement.</block>
+  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">Courrier électronique :ng-cloudmanager-feedback@netapp.com[E-mail de commentaires]</block>
+  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">Nous accordons une grande importance à vos commentaires. Envoyez vos commentaires pour nous aider à améliorer BlueXP.</block>
+  <block id="0659d428df833a806e29e65e632d380a" category="section-title">Support NetApp</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">Outre les options d'auto-support mentionnées ci-dessus, vous pouvez travailler avec un spécialiste du support NetApp pour résoudre tous les problèmes après avoir activé le service de support.</block>
+  <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">Découvrez comment vous inscrire à de l'aide</block>
+  <block id="1012a287397c66025d7748edf06a36e2" category="paragraph">Pour utiliser la fonction *Créer un cas*, vous devez d'abord effectuer un enregistrement unique de votre numéro de série d'ID de compte BlueXP (par exemple 960xxxx) avec NetApp. <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>.</block>
+  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">Dans BlueXP, cliquez sur *aide &gt; support*.</block>
+  <block id="f5052c65917d7341726235d4d4941461" category="list-text">Choisissez l'une des options disponibles sous support technique :</block>
+  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">Cliquez sur *appelez-nous* si vous souhaitez parler avec quelqu'un au téléphone. Vous serez dirigé vers une page netapp.com qui répertorie les numéros de téléphone que vous pouvez appeler.</block>
+  <block id="bf5bc6ab0f95f17f4e98c9d766b8c11d" category="list-text">Cliquez sur *Créer un dossier* pour ouvrir un dossier auprès des spécialistes du support NetApp :</block>
+  <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">*Compte sur le site de support NetApp* : sélectionnez le compte NSS applicable associé à la personne qui ouvre le dossier de support. Cette personne sera le contact principal avec NetApp en plus de l'e-mail ci-dessous.</block>
+  <block id="d950fb930d7f7e6bfdda1b91b4639a02" category="paragraph">Si vous ne voyez pas votre compte NSS, vous pouvez accéder à l'onglet *NSS Management* de la section support de BlueXP pour l'ajouter.</block>
+  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Service* : sélectionnez le service auquel le problème est associé. Par exemple, BlueXP lorsqu'il est spécifique à un problème de support technique avec des flux de travail ou des fonctionnalités au sein du service.</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*Environnement de travail* : si applicable au stockage, sélectionnez *Cloud Volumes ONTAP* ou *sur site*, puis l'environnement de travail associé.</block>
+  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">La liste des environnements de travail est comprise dans le cadre du compte, de l'espace de travail et du connecteur BlueXP que vous avez sélectionnés dans la bannière supérieure du service.</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*Priorité du cas* : choisissez la priorité du cas, qui peut être faible, Moyen, élevé ou critique.</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">Pour en savoir plus sur ces priorités, passez votre souris sur l'icône d'information située à côté du nom du champ.</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*Description du problème* : fournir une description détaillée de votre problème, y compris les messages d'erreur ou les étapes de dépannage applicables que vous avez effectués.</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*Adresses e-mail supplémentaires*: Entrez des adresses e-mail supplémentaires si vous souhaitez informer quelqu'un d'autre de ce problème.</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">Capture d'écran du formulaire Créer un dossier qui vous permet de créer un dossier auprès du support NetApp.</block>
+  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">Une fenêtre contextuelle contenant votre numéro de dossier de support s'affiche. Un spécialiste du support NetApp va étudier votre dossier et vous recontacterons très rapidement.</block>
+  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">Pour consulter l'historique de vos dossiers d'assistance, vous pouvez cliquer sur *Paramètres &gt; Chronologie* et rechercher les actions nommées "Créer un dossier de support". Un bouton à l'extrême droite vous permet de développer l'action pour voir les détails.</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">Il est possible que vous rencontriez le message d'erreur suivant lors de la création d'un dossier :</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">« Vous n'êtes pas autorisé à créer un dossier pour le service sélectionné »</block>
+  <block id="fa6b601b2fb4e3e5c7b466ecb8bd70ac" category="paragraph">Cette erreur peut signifier que le compte NSS et la société d'enregistrement auquel il est associé n'est pas la même société d'enregistrement pour le numéro de série du compte BlueXP (par exemple 960xxxx) ou le numéro de série de l'environnement de travail. Vous pouvez consulter votre liste de comptes NSS en haut du formulaire *Créer un dossier* pour trouver la correspondance appropriée, ou vous pouvez demander de l'aide en utilisant l'une des options suivantes :</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">Utilisez le chat du produit</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">Soumettre un dossier non technique à<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="07412ee3cf29f80fadf8fe52f687e709" category="summary">Si vous avez changé vos serveurs DNS ou votre domaine Active Directory, vous devez modifier le serveur SMB dans Cloud Volumes Service afin qu'il puisse continuer à fournir du stockage aux clients.</block>
+  <block id="cfc8683315c11129a14f7b806a6f699c" category="doc">Gérez votre configuration Active Directory</block>
+  <block id="f53392d049b9dddff4ba55ad74c96588" category="inline-image-macro">Une icône avec trois points</block>
+  <block id="4a6bf9c3f62fb119f3187ec42ecd340d" category="list-text">Cliquez sur le bouton <block ref="05d0267e107b3cc780d52df5db38eaef" category="inline-image-macro-rx" type="image"></block> En haut de la page, cliquez sur *gérer Active Directory*.</block>
+  <block id="b161c15ae834886d4dbb8c09b3bad848" category="paragraph">Si aucun Active Directory n'est configuré, vous pouvez en ajouter un maintenant. Si l'un d'eux est configuré, vous pouvez modifier ou supprimer les paramètres à l'aide du <block ref="05d0267e107b3cc780d52df5db38eaef" category="inline-image-macro-rx" type="image"></block> bouton.</block>
+  <block id="fd1f3b127eeb96862e4cde53a7ee6267" category="list-text">Spécifiez les paramètres du serveur SMB :</block>
+  <block id="6f16a5f8ff5d75ab84c018adacdfcbb7" category="cell">Champ</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">Description</block>
+  <block id="9d35762d6cb446294ba4226fba0d1eb5" category="cell">Adresse IP principale DNS</block>
+  <block id="c1ca298a9a9c76ca22ecf23ccaca6448" category="cell">Les adresses IP des serveurs DNS qui fournissent une résolution de nom pour le serveur SMB. Utilisez une virgule pour séparer les adresses IP lorsque vous faites référence à plusieurs serveurs, par exemple 172.31.25.223, 172.31.2.74.</block>
+  <block id="b4a5aaff47ac1aad0a039f0089aac0c6" category="cell">Domaine Active Directory à rejoindre</block>
+  <block id="c6d55f531a77e880997000897f943785" category="cell">Le FQDN du domaine Active Directory (AD) que vous souhaitez que le serveur SMB rejoint.</block>
+  <block id="bb78cf486f48b949ec20d57c3b4b3570" category="cell">Nom NetBIOS du serveur SMB</block>
+  <block id="5edfee54ded2748effdab7c474ec6077" category="cell">Nom NetBIOS du serveur SMB qui sera créé.</block>
+  <block id="a3bbc956ff81e28dd77efaaf4d1c5b30" category="cell">Informations d'identification autorisées à rejoindre le domaine</block>
+  <block id="03fa572f48ef7f33b022f609e0553e85" category="cell">Nom et mot de passe d'un compte Windows disposant de privilèges suffisants pour ajouter des ordinateurs à l'unité d'organisation spécifiée dans le domaine AD.</block>
+  <block id="ff309cf3107765153856990e03224d8c" category="cell">Unité organisationnelle</block>
+  <block id="88f4674929f3577e4ed6ca0ce26d6c95" category="cell">Unité organisationnelle au sein du domaine AD à associer au serveur SMB. La valeur par défaut est CN=Computers pour les connexions à votre propre serveur Windows Active Directory.</block>
+  <block id="4bc62575e91aa40d329c1383c7a4fc46" category="list-text">Cliquez sur *Enregistrer* pour enregistrer vos paramètres.</block>
+  <block id="5876c30cdb96c38d4cc2497feffde111" category="summary">Vous pouvez créer une règle Snapshot pour chaque volume, de sorte que vous puissiez récupérer ou restaurer l'intégralité du contenu d'un volume à partir d'une version antérieure. Vous pouvez également créer un snapshot à la demande d'un volume cloud, si nécessaire.</block>
+  <block id="bf7d38473ac37a5a084d9d1f21a4002c" category="doc">Gestion des copies Snapshot de Cloud volumes</block>
+  <block id="2530ad97c013f5d8d9c69004a4e7ee67" category="section-title">Créer un snapshot à la demande</block>
+  <block id="377828daafe235f0aafbc80626a92a44" category="paragraph">Vous pouvez créer un snapshot à la demande d'un volume cloud si vous souhaitez créer un snapshot avec l'état actuel du volume.</block>
+  <block id="bb06f880c297b34268ea12d1602837bb" category="list-text">Placez le pointeur de la souris sur le volume et cliquez sur *Créer une copie snapshot*.</block>
+  <block id="f6abfc5070e6bcda72d651ecad906489" category="list-text">Entrez un nom pour le snapshot ou utilisez le nom généré automatiquement, puis cliquez sur *Créer*.</block>
+  <block id="2209a54e85463699d44111ce0c0a236a" category="inline-image-macro">Capture d'écran de la sélection de la copie Snapshot à restaurer vers un nouveau volume</block>
+  <block id="f989d58bb69770d84593492ff494f094" category="paragraph"><block ref="f989d58bb69770d84593492ff494f094" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6459290d6e095d59cc3f6660e9e9ba67" category="paragraph">Le snapshot est créé.</block>
+  <block id="e5424232e5c3cbc0b77accf10fc38470" category="section-title">Créez ou modifiez une policy de snapshots</block>
+  <block id="4fec62b4aa71f93e589147ab337d3a3a" category="paragraph">Vous pouvez créer ou modifier une règle Snapshot si nécessaire pour un volume cloud. Vous définissez la stratégie de snapshot à partir de l'onglet _Snapshot Policy_ lors de la création d'un volume ou lors de la modification d'un volume.</block>
+  <block id="e7869c8f9e6db9876598b0ae71814661" category="list-text">Placez le pointeur de la souris sur le volume et cliquez sur *Modifier*.</block>
+  <block id="13936fb1e8cab81aa5c50bc2a7991029" category="list-text">Dans l'onglet _Snapshot Policy_, déplacez le curseur activer les snapshots vers la droite.</block>
+  <block id="6fcb64b90c6b69153987bd2a5934500e" category="list-text">Définir la planification des snapshots :</block>
+  <block id="0c8182bf573f25aa41ea1b97ef990daf" category="list-text">Sélectionnez la fréquence : *horaire*, *quotidien*, *hebdomadaire* ou *mensuel*</block>
+  <block id="95f0f96e7a13d18ec4b4cc683cac354a" category="list-text">Sélectionnez le nombre de snapshots que vous souhaitez conserver.</block>
+  <block id="d83574476baea70ecfe273fcb08a92b1" category="list-text">Sélectionnez le jour, l'heure et la minute où l'instantané doit être pris.</block>
+  <block id="23643dc2c2630e1cd190257bc60fe38e" category="inline-image-macro">Copie d'écran d'une règle Snapshot configurée</block>
+  <block id="a88d31c8b3d36cada7ac3f645dbdd24b" category="paragraph"><block ref="a88d31c8b3d36cada7ac3f645dbdd24b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="559ab4c9d098436cfbf33391cfeecf7f" category="list-text">Cliquez sur *Ajouter volume* ou *mettre à jour volume* pour enregistrer les paramètres de votre stratégie.</block>
+  <block id="c97414d9e21703e37b875d9f1d8dfb74" category="section-title">Désactiver une règle Snapshot</block>
+  <block id="f2dd955514c60fad76437ba0f7550a7f" category="paragraph">Vous pouvez désactiver une stratégie de snapshot pour empêcher la création de snapshots pendant une courte période tout en conservant les paramètres de votre stratégie de snapshot.</block>
+  <block id="7a732251673ef876881925c7f8facaa0" category="list-text">Dans l'onglet _Snapshot Policy_, déplacez le curseur activer les snapshots vers la gauche.</block>
+  <block id="39e4d7ad6415acefc633ce23184ef5d5" category="inline-image-macro">Capture d'écran du bouton de politique de snapshot en position désactivée</block>
+  <block id="bcbed048badd671015bc9a700a9ee184" category="paragraph"><block ref="bcbed048badd671015bc9a700a9ee184" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fc220eb1d5572bf36eac03104db8fd04" category="list-text">Cliquez sur *mettre à jour le volume*.</block>
+  <block id="0932c32fdddde924b270a62a2ae2cd0e" category="paragraph">Lorsque vous souhaitez réactiver la stratégie de snapshot, déplacez le curseur d'activation des snapshots vers la droite et cliquez sur *mettre à jour le volume*.</block>
+  <block id="efb44cfe1d5b8d9954ea045385675c66" category="section-title">Supprime un snapshot</block>
+  <block id="01270341151a1d822c548abc778b27ea" category="paragraph">Vous pouvez supprimer un instantané s'il n'est plus nécessaire.</block>
+  <block id="7552d0e963760ace00d752fb123989a3" category="list-text">Placez le pointeur de la souris sur le volume et cliquez sur *Supprimer une copie snapshot*.</block>
+  <block id="b8d7a446f6dbe49089b4c415dc2e8037" category="list-text">Sélectionnez l'instantané dans la liste déroulante et cliquez sur *Supprimer*.</block>
+  <block id="9c673ecd9d0dddf896cc55f2127056d8" category="inline-image-macro">Capture d'écran de la sélection de la copie snapshot à supprimer</block>
+  <block id="41a98f64ec73ced976239a7861d67e1c" category="paragraph"><block ref="41a98f64ec73ced976239a7861d67e1c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e1899e67aa8aec45bef5dc600fc2ae14" category="list-text">Dans la boîte de dialogue de confirmation, cliquez sur *Supprimer*.</block>
+  <block id="873e0406fa26efb41adbaa13d68a75aa" category="section-title">Restaurer un snapshot vers un nouveau volume</block>
+  <block id="3d1f395f071b82aa2483997ed6a950f4" category="paragraph">Vous pouvez restaurer un snapshot vers un nouveau volume si nécessaire.</block>
+  <block id="4610617cfe3d68ad951e3cbe5838d48f" category="list-text">Placez le pointeur de la souris sur le volume et cliquez sur *Restaurer un nouveau volume*.</block>
+  <block id="f00381a2986fdab955681fe6c60ce7ed" category="list-text">Sélectionnez l'instantané que vous souhaitez utiliser pour créer le nouveau volume dans la liste déroulante.</block>
+  <block id="a5e417c4429a4d261016484925d60eed" category="list-text">Entrez un nom pour le nouveau volume et cliquez sur *Restaurer*.</block>
+  <block id="12fac297323644da3ff2e0153eeb71e2" category="paragraph"><block ref="12fac297323644da3ff2e0153eeb71e2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ca4c6ba75b4d9ae132e9e540b993e8c8" category="paragraph">Le volume est créé dans l'environnement de travail.</block>
+  <block id="318099df58f11dc94302fadee00fb7b2" category="list-text">Si vous devez modifier l'un des attributs de volume, tels que le chemin de volume ou le niveau de service :</block>
+  <block id="2c55e8dc4183c50c0009f5d04bc6a083" category="list-text">Effectuez vos modifications et cliquez sur *mettre à jour le volume*.</block>
+  <block id="ff74d9d1d3fca1c7a3ef1f4d83f84caa" category="inline-link-macro">Montage du volume cloud</block>
+  <block id="f4b43cd0d32ccc6ae1ae7fd55ec60faf" category="paragraph">Passez à <block ref="711ebf19377f2c6ac55625f313ee444a" category="inline-link-macro-rx"></block>.</block>
+  <block id="fb40390dc5f9af56c8a05dba3f355101" category="summary">BlueXP a besoin d'un accès à l'API Cloud Volumes Service et de droits d'accès via un compte de service Google Cloud.</block>
+  <block id="40b96cc305f26bed96812c2920065f5d" category="doc">Configurez Google Cloud</block>
+  <block id="c0d5abaa52a2adc8b50cf6748143a972" category="section-title">Activez l'API Cloud Volumes Service</block>
+  <block id="db680318754971180f12e167ae5f6325" category="paragraph">Dans Google Cloud Shell, exécutez la commande suivante pour activer l'API Cloud Volumes Service :</block>
+  <block id="c4c67ba5b51827067dc9257fb3040a30" category="paragraph"><block ref="8feb5e5522e47ef199781c1d6df3bf83" prefix="" category="inline-code"></block></block>
+  <block id="ec8725380aa2f688c9b9d45557c44600" category="section-title">Configurez un compte de service</block>
+  <block id="b87ecb1d933b8e5835c8e93327f7676e" category="paragraph">Effectuez les tâches suivantes pour que BlueXP puisse accéder à votre projet Google Cloud :</block>
+  <block id="cb939d621f46e6895da8fb3a52fbcf83" category="list-text">Créez un nouveau compte de service</block>
+  <block id="172cabf35e2da2e485725633d4544c4b" category="list-text">Ajoutez le nouveau membre du compte de service à votre projet et attribuez-lui des rôles (autorisations) spécifiques.</block>
+  <block id="b8da17ea9f82689a4cc87ac02b337328" category="list-text">Créez et téléchargez une paire de clés pour le compte de service utilisé pour s'authentifier auprès de Google</block>
+  <block id="ab6fcc124e86604f6bab5da13aaea51a" category="inline-link">Accédez à la page comptes de service</block>
+  <block id="7dc4b63dc4834aecd751b91ed3de3d39" category="list-text">Dans la console Google Cloud,<block ref="72863ecd427c906452e0c3d21111bdac" category="inline-link-rx"></block>.</block>
+  <block id="e4ca5adc5a86c098ce9d6bd2f42dc178" category="list-text">Cliquez sur *sélectionnez un projet*, choisissez votre projet et cliquez sur *Ouvrir*.</block>
+  <block id="bdac2dc9c1216cbabea4f0c3c6dbd7eb" category="list-text">Cliquez sur *Créer un compte de service*.</block>
+  <block id="81c36eb6a7aa6110855ae09fd80381ab" category="list-text">Saisissez le nom du compte de service (nom d'affichage convivial) et la description.</block>
+  <block id="66335d9ae4276106da10a758c0c3c8b7" category="paragraph">La console cloud génère un ID de compte de service basé sur ce nom. Modifiez l'ID si nécessaire - vous ne pouvez pas le modifier ultérieurement.</block>
+  <block id="8971b16610cb4efa4b6c83e3ad176094" category="list-text">Pour définir maintenant les contrôles d'accès, cliquez sur *Créer*, puis sur *TERMINÉ* en bas de la page et passez à l'étape suivante.</block>
+  <block id="4bd66ea95ac91bc82cdc097c3614f96c" category="list-text">Dans la page _IAM_, cliquez sur *Ajouter* et remplissez les champs de la page _Ajouter des membres_ :</block>
+  <block id="91193149b6c0dbfe2760ec8c62b016e7" category="list-text">Dans le champ nouveaux membres, saisissez l'ID de compte de service complet, par exemple user1-service-account-cvs@project1.iam.gserviceaccount.com.</block>
+  <block id="e6915ea331526f7f3221d5b019733157" category="list-text">Ajouter ces rôles :</block>
+  <block id="ea34dd9c3c884049d43a2ee08126a1e2" category="list-text">_NetApp Cloud volumes Admin_</block>
+  <block id="a69f1e2412a22a1f3153b3553fb2a1d1" category="list-text">_Compute Network Viewer_</block>
+  <block id="4cc186df234138a57b2e8c5d8e5f7f8d" category="list-text">Cliquez sur *Enregistrer*.</block>
+  <block id="1baa368f450d37450a1cb47c6b7dd320" category="list-text">Cliquez sur le nom du compte de service, puis, à partir de la page _Détails du compte de service_, cliquez sur *Ajouter touche &gt; Créer une nouvelle clé*.</block>
+  <block id="744132d4bfa3718f3315f6d3187cba60" category="list-text">Sélectionnez *JSON* comme type de clé et cliquez sur *Create*.</block>
+  <block id="ef17d662e8cfc44a88102effe9136080" category="paragraph">En cliquant sur *Créer*, votre nouvelle paire de clés publique/privée est générée et téléchargée sur votre système. Il sert de seule copie de la clé privée. Stockez ce fichier de façon sécurisée car il peut être utilisé pour s'authentifier en tant que compte de service.</block>
+  <block id="0eff7de92af8c65ac32bf20be9393a92" category="paragraph">Pour obtenir des instructions détaillées, consultez la documentation Google Cloud :</block>
+  <block id="7ef475b3aa654a4c77b576b7b693b979" category="inline-link-macro">Création et gestion des comptes de service</block>
+  <block id="fc4ab4403cd96c67fe73442b8080f683" category="list-text"><block ref="fc4ab4403cd96c67fe73442b8080f683" category="inline-link-macro-rx"></block></block>
+  <block id="b666e33c85ae74bc39da9e25479b2d5b" category="inline-link-macro">Octroi, modification et révocation de l'accès aux ressources</block>
+  <block id="543336bbad88b5d4f6aab813afbcd38f" category="list-text"><block ref="543336bbad88b5d4f6aab813afbcd38f" category="inline-link-macro-rx"></block></block>
+  <block id="17337f696c024b9e31f4396f97e2d0b0" category="inline-link-macro">Création et gestion des clés de compte de service</block>
+  <block id="29d3428cb13e4cac2f40807938da5dc8" category="list-text"><block ref="29d3428cb13e4cac2f40807938da5dc8" category="inline-link-macro-rx"></block></block>
+  <block id="1e7975b6d4ca1d78e46f2d83b9f0c334" category="summary">BlueXP vous permet de créer des volumes cloud basés sur votre abonnement Cloud Volumes Service pour Google Cloud. Une fois que vous avez créé un volume, obtenez les commandes de montage appropriées afin de pouvoir monter le volume sur un client.</block>
+  <block id="9be5a2eae9bab39aee7d0161c137cd43" category="doc">Création et montage de volumes</block>
+  <block id="1c27e11c5e65b93611e6f5ce640f8184" category="section-title">Créer des volumes</block>
+  <block id="0083dcd597da7bd592240dc28b767d85" category="paragraph">Vous pouvez créer des volumes NFS ou SMB dans un compte Cloud Volumes Service pour Google Cloud existant ou nouveau. Les volumes cloud prennent actuellement en charge NFSv3 et NFSv4.1 pour les clients Linux et UNIX, et SMB 3.x pour les clients Windows.</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">Avant de commencer</block>
+  <block id="ce18c1db074bb9e5c1d0abfee30e098f" category="list-text">Si vous souhaitez utiliser SMB dans GCP, vous devez avoir configuré DNS et Active Directory.</block>
+  <block id="f153caba90fc4134024f9b4c3eeadea8" category="list-text">Lorsque vous prévoyez de créer un volume SMB, vous devez disposer d'un serveur Windows Active Directory disponible auquel vous pouvez vous connecter. Vous entrez ces informations lors de la création du volume. Assurez-vous également que l'utilisateur administrateur peut créer un compte machine dans le chemin d'unité organisationnelle spécifié.</block>
+  <block id="3a9d2e9f2ef6e95de617c14d2e4a4ef4" category="list-text">Sélectionnez l'environnement de travail et cliquez sur *Ajouter un nouveau volume*.</block>
+  <block id="a88cc7492eb95c6a27a508257cb9c7d3" category="list-text">Sur la page Détails et emplacement, saisissez les détails du volume :</block>
+  <block id="0dcbdc7a88267f1af3dfbb016b0e988b" category="list-text">Entrez un nom pour le volume.</block>
+  <block id="0aa26752c8275d7c2136cfa844d9bed7" category="list-text">Spécifiez une taille dans la plage de 1 Tio (1024 Gio) à 100 Tio.</block>
+  <block id="18f39858c9507476f461154189c305ce" category="inline-link-macro">En savoir plus sur la capacité allouée</block>
+  <block id="8499bf1a4d0783e1946d0183d50b1a5e" category="paragraph"><block ref="1fccff2dc87880e023e422db2a91ac16" category="inline-link-macro-rx"></block>.</block>
+  <block id="d5d2b1f89ce09d0f5810f56209020adc" category="list-text">Spécifier un niveau de service : standard, Premium ou Extreme.</block>
+  <block id="4de85cc4f312ff19184ba3b85367874c" category="inline-link-macro">En savoir plus sur les niveaux de service</block>
+  <block id="06caf620f227e374f23ebcbd61a320c1" category="paragraph"><block ref="4a30f1eccd0eaf46b75e9787d1a9dd0e" category="inline-link-macro-rx"></block>.</block>
+  <block id="b120226bff5ab9d91c0335fcef4d25a9" category="list-text">Sélectionnez la région Google Cloud.</block>
+  <block id="0ad33c22b0bf62f904c40c679ed4bb71" category="list-text">Sélectionnez le réseau VPC à partir duquel le volume sera accessible. Notez que le VPC ne peut pas être modifié ou modifié une fois le volume créé.</block>
+  <block id="e779fbfdff90085c8a49c2e711c97ce8" category="inline-image-macro">Capture d'écran de la page de détails du volume dans laquelle vous indiquez le nom, la taille et le niveau de service</block>
+  <block id="a7bcef8a07fad7a86f89afe7cb9eec70" category="paragraph"><block ref="a7bcef8a07fad7a86f89afe7cb9eec70" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0625bfce4701fe75801416f87ede7b10" category="list-text">Sur la page Protocol, sélectionnez NFS ou SMB, puis définissez les détails. Les entrées requises pour NFS et SMB sont répertoriées dans les sections ci-après.</block>
+  <block id="547a5c5cf72eabae707b477139de2cdd" category="list-text">Pour NFS :</block>
+  <block id="d21a4fe6a8f6a1dfa8736389d4c3476d" category="list-text">Dans le champ chemin du volume, indiquez le nom de l'exportation de volume que vous verrez lors du montage du volume.</block>
+  <block id="25f87b20d982949ec8e3e27d03474ba6" category="list-text">Sélectionnez NFS v3, NFS v4.1 ou les deux en fonction de vos exigences.</block>
+  <block id="971b53e8e70edb4bd2dc46c1e9a5f83b" category="list-text">Vous pouvez également créer une export-policy pour identifier les clients pouvant accéder au volume. Spécifiez :</block>
+  <block id="264754e31d1ff52cdc5aaf133afec15f" category="list-text">Clients autorisés à l'aide d'une adresse IP ou d'un routage inter-domaines sans classe (CIDR).</block>
+  <block id="afbfc1582fb1f428d3810c815dfcc309" category="list-text">Droits d'accès en lecture et écriture ou lecture seule.</block>
+  <block id="4ab55a4fa374ed23333000e2528f27ae" category="list-text">Protocole d'accès (ou protocoles si le volume autorise l'accès NFS v3 et NFS v4.1) utilisé pour les utilisateurs.</block>
+  <block id="c2e80b269feea5b55611a060d02af36b" category="list-text">Cliquez sur *+ Ajouter règle de stratégie d'exportation* si vous souhaitez définir des règles de stratégie d'exportation supplémentaires.</block>
+  <block id="7f705955c40fe9715fd0b0beafc53e4d" category="paragraph">L'image suivante montre la page Volume remplie pour le protocole NFS :</block>
+  <block id="7d060f160067a6298515896b28afec14" category="inline-image-macro">Copie d'écran affichant la page de volume remplie pour un volume NFS Cloud Volumes Service.</block>
+  <block id="872560fbd3d800dab72db585b9f3c935" category="paragraph"><block ref="872560fbd3d800dab72db585b9f3c935" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9558b14c9d59086685b161678bbd5ba3" category="list-text">Pour SMB :</block>
+  <block id="f3ef9426887f3b6d3605f31188680f8d" category="list-text">Dans le champ chemin du volume, indiquez le nom de l'exportation de volume que vous verrez lorsque vous montez le volume et cliquez sur *Continuer*.</block>
+  <block id="cd151d721b267c3372dae8aa90bea7b0" category="list-text">Si Active Directory a été configuré, la configuration s'affiche. S'il s'agit du premier volume en cours de configuration et qu'aucun Active Directory n'a été configuré, vous pouvez activer le chiffrement de session SMB dans la page d'installation de la connectivité SMB :</block>
+  <block id="af76d053440af0abdccb0ad361f41e55" category="cell">Les adresses IP des serveurs DNS qui fournissent une résolution de nom pour le serveur SMB. Utilisez une virgule pour séparer les adresses IP lorsque vous faites référence à plusieurs serveurs, par exemple 172.31.25.223, 172.31.2.74.</block>
+  <block id="03e6e06b082c189fc87ad9aad3901032" category="paragraph">L'image suivante montre la page Volume remplie pour le protocole SMB :</block>
+  <block id="a69750d79ae32373cb26af4d76eee484" category="inline-image-macro">Copie d'écran affichant la page de volume remplie pour un volume Cloud Volumes Service SMB.</block>
+  <block id="396a17f0ed51b9c5c6e2c2d382b9da29" category="paragraph"><block ref="396a17f0ed51b9c5c6e2c2d382b9da29" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="14ec8544f74cfa351aff62abf80e7ce1" category="list-text">Si vous souhaitez créer le volume à partir d'un snapshot d'un volume existant, sélectionnez-le dans la liste déroulante Nom de snapshot. Sinon, cliquez simplement sur *Continuer*.</block>
+  <block id="a09c1495afba572d0857c83823cd2bad" category="list-text">Sur la page règle Snapshot, vous pouvez activer Cloud Volumes Service pour créer des copies snapshot de vos volumes selon un planning. Pour ce faire, vous pouvez déplacer le sélecteur vers la droite ou modifier le volume ultérieurement pour définir la stratégie de snapshots.</block>
+  <block id="ced63c567878ed01730fce043c8ade96" category="inline-link-macro">création d'une règle de snapshots</block>
+  <block id="e45bbeae66bd2af06ef994ec4e9682b9" category="paragraph">Découvrez comment <block ref="4733085e77073b15a79afc35f8d9b896" category="inline-link-macro-rx"></block>.</block>
+  <block id="5e65e2e51d0d291499a42f54730e645c" category="list-text">Cliquez sur *Ajouter un volume*.</block>
+  <block id="45dbe3c136df615d693b80183c277a3b" category="paragraph">Le nouveau volume est ajouté à l'environnement de travail.</block>
+  <block id="0753d577f87c3ce7385e295a5cc23407" category="paragraph">Poursuivre le montage du volume cloud.</block>
+  <block id="45bb1e3eab26b4479c1c1d8bdd6bf2f5" category="section-title">Montez les volumes cloud</block>
+  <block id="cabcbbac4437e0dbf2eec9f1d07d973b" category="paragraph">Accédez aux instructions de montage depuis BlueXP pour monter le volume sur un hôte.</block>
+  <block id="b80e741400898b02fa02ae6451578a24" category="admonition">Utilisez le protocole/dialecte mis en surbrillance pris en charge par votre client.</block>
+  <block id="231483c3df5be28012c03a70cd182671" category="list-text">Placez le pointeur de la souris sur le volume et cliquez sur *montez le volume*.</block>
+  <block id="dc994023cf3cc855f2ced6fe0993f129" category="paragraph">Les volumes NFS et SMB affichent des instructions de montage pour ce protocole.</block>
+  <block id="ca9ddaf06b48350fa016d22a546b3160" category="list-text">Placez le pointeur de la souris sur les commandes et copiez-les dans le presse-papiers pour faciliter ce processus. Ajoutez simplement le répertoire de destination/point de montage à la fin de la commande.</block>
+  <block id="f8b7bb7f28d1f1a0e9534f8d8582d615" category="paragraph">*Exemple NFS:*</block>
+  <block id="b814517054080fc81ee838a94a37bc18" category="inline-image-macro">Instructions de montage pour les volumes NFS</block>
+  <block id="5c81aee2de731ff9fc139e1be671e308" category="paragraph"><block ref="5c81aee2de731ff9fc139e1be671e308" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cb3bef40f931522adf1b31bfb5ba4e1b" category="paragraph">La taille d'E/S maximale définie par le<block ref="2c8f7e3ea90b72af8582c0f2716bd2b8" prefix=" " category="inline-code"></block> et<block ref="374422a639d51557c7fcfc9c97aa4c07" prefix=" " category="inline-code"></block> les options sont 1048576. cependant, la version 65536 est la valeur par défaut recommandée pour la plupart des cas d'utilisation.</block>
+  <block id="14207f0f4970c30af3f3b09bc26475c1" category="paragraph">Notez que les clients Linux seront par défaut sur NFSv4.1 à moins que la version soit spécifiée avec<block ref="8d6fa55e844862b3ea6091f9f557abb6" prefix=" " category="inline-code"></block> option.</block>
+  <block id="c33a261ec68784a847d41ccecc103bc1" category="paragraph">*Exemple SMB:*</block>
+  <block id="dd92d715112689203a9d21e0c4638b23" category="inline-image-macro">Instructions de montage pour les volumes SMB</block>
+  <block id="d837d9033dcef75be4b4e49cdbf1cd31" category="paragraph"><block ref="d837d9033dcef75be4b4e49cdbf1cd31" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d2db85ec3f1d935da0d928bd1abc4623" category="list-text">Mappez votre lecteur réseau en suivant les instructions de montage de votre instance.</block>
+  <block id="8368ae9308b995fd5a75721d106d4ab0" category="paragraph">Après avoir terminé les étapes des instructions de montage, vous avez correctement monté le volume cloud sur votre instance GCP.</block>
+  <block id="83472337cbb57099afa660a35a9c3772" category="summary">Vous pouvez gérer les volumes existants à mesure que vos besoins de stockage changent. Vous pouvez afficher, modifier, restaurer et supprimer des volumes.</block>
+  <block id="9038e7cfcfe9bb9df9afd31371070be8" category="doc">Gérer les volumes existants</block>
+  <block id="51c267e93c101971f1edda68c933c864" category="list-text">Placez le pointeur de la souris sur le volume.</block>
+  <block id="f102d2437687d23a5ac4fb68ea34668f" category="inline-image-macro">Capture d'écran du menu contextuel du volume qui permet d'effectuer des tâches de volume</block>
+  <block id="12618a0cf16fe919277e98ec9d44a180" category="paragraph"><block ref="12618a0cf16fe919277e98ec9d44a180" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="75ab567efb1db447b59b0343c1a2ceb3" category="list-text">Gérez vos volumes :</block>
+  <block id="eaeb30f9f18e0c50b178676f3eaef45f" category="cell">Tâche</block>
+  <block id="004bf6c9a40003140292e97330236c53" category="cell">Action</block>
+  <block id="289d57ca7886b8016f08f4d17ad68a55" category="cell">Afficher des informations sur un volume</block>
+  <block id="1a75d1d5ebc6d526f309bba66a6b717c" category="cell">Cliquez sur *Info*.</block>
+  <block id="a262a83ffe24815a6e18b8655e7c9d3c" category="cell">Modification d'un volume (y compris la règle Snapshot)</block>
+  <block id="4a1938d0e423380a1497b6177cf5dc1c" category="list-text">Cliquez sur *Modifier*.</block>
+  <block id="13f2f059150e745212f31d522267cd21" category="list-text">Modifiez les propriétés du volume, puis cliquez sur *mettre à jour*.</block>
+  <block id="57ad6d7575a56679decf17fe96fcf1d0" category="cell">Procurez-vous la commande NFS ou SMB mount</block>
+  <block id="ae21b5c5fb2e9febee97efa2eb6b9285" category="list-text">Cliquez sur *montez le volume*.</block>
+  <block id="8f636e3ecab79b837953c9b370f79329" category="list-text">Cliquez sur *Copier* pour copier la ou les commandes.</block>
+  <block id="7037507985b932c715517fcf78ae11e3" category="cell">Créez une copie Snapshot à la demande</block>
+  <block id="24f7235ff22dc3892828c08842e689a8" category="list-text">Cliquez sur *Créer une copie snapshot*.</block>
+  <block id="4e421f73920c619b2a88e35f954c3429" category="list-text">Modifiez le nom, si nécessaire, puis cliquez sur *Créer*.</block>
+  <block id="f8e9baca287188400b353f0fe39c789e" category="cell">Remplacez le volume par le contenu d'une copie Snapshot</block>
+  <block id="e837b92d7195c8af36a1e16d5b98647e" category="list-text">Cliquez sur *revenir au snapshot*.</block>
+  <block id="5eb4305250870db39b1ce1fef395849e" category="list-text">Sélectionnez une copie Snapshot et cliquez sur *Restaurer*.</block>
+  <block id="7b364050ccd47e83ca87e25526786072" category="cell">Supprimez une copie Snapshot</block>
+  <block id="7e026074df0bbceb5332d6d0fcfff97d" category="list-text">Cliquez sur *Supprimer une copie snapshot*.</block>
+  <block id="00a6e5d778d81fd35251dad7b72cbd9c" category="list-text">Sélectionnez l'instantané et cliquez sur *Supprimer*.</block>
+  <block id="17261ee2157a48b4bfa8bffabc397f40" category="list-text">Cliquez à nouveau sur *Supprimer* lorsque vous êtes invité à confirmer.</block>
+  <block id="8e9a64bda9d21f945b6489df2e7946e1" category="cell">Supprimer un volume</block>
+  <block id="e7d176ac7539a52a08943f65ecc19e32" category="list-text">Démonter le volume de tous les clients :</block>
+  <block id="23394565644d9607267c2577190c4654" category="list-text">Sur les clients Linux, utilisez<block ref="8e1dd8720b090cbab6b23ce87ee795f6" prefix=" " category="inline-code"></block> commande.</block>
+  <block id="b70c71384dfeac0e536c343872f2fb55" category="list-text">Sur les clients Windows, cliquez sur *déconnecter le lecteur réseau*.</block>
+  <block id="150cd3111dfd7ae68aaeb429e7e50847" category="list-text">Sélectionnez un volume, puis cliquez sur *Supprimer*.</block>
+  <block id="a87e9e2d6f69725c3669d99fad70371d" category="list-text">Cliquez à nouveau sur *Supprimer* pour confirmer.</block>
+  <block id="38165b0154e8ca385de9d17b6f390e0d" category="summary">Découvrez les nouveautés de Cloud Volumes Service pour Google Cloud dans BlueXP.</block>
+  <block id="490414e0366b091220802d406e52c076" category="doc">Quoi de neuf</block>
+  <block id="a633f0835832cc75f5a83248a8aa2ba8" category="section-title">9 septembre 2020</block>
+  <block id="8751230100c974b7c3ae5adae22c0f7c" category="section-title">Prise en charge de Cloud Volumes Service pour Google Cloud</block>
+  <block id="3831fedd132ba9d729ab12b97bb43833" category="paragraph">Vous pouvez désormais gérer Cloud Volumes Service pour Google Cloud directement depuis BlueXP :</block>
+  <block id="69a622f3bb660c4a470d3d96f19e20be" category="list-text">Configurer et créer un environnement de travail</block>
+  <block id="bd596d5c57d76a146d26208cd81913fb" category="list-text">Créez et gérez des volumes NFS v3 et NFS v4.1 pour les clients Linux et UNIX</block>
+  <block id="104e3ba4c577e4723ae2db3aaab91044" category="list-text">Créez et gérez des volumes SMB 3.x pour les clients Windows</block>
+  <block id="f3f6d908876888ed386cf496a0f26e7c" category="list-text">Créez, supprimez et restaurez des snapshots de volume</block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Mentions légales</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Les mentions légales donnent accès aux déclarations de copyright, aux marques, aux brevets, etc.</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Droits d'auteur</block>
+  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marques déposées</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, le logo NETAPP et les marques mentionnées sur la page des marques commerciales NetApp sont des marques commerciales de NetApp, Inc. Les autres noms de sociétés et de produits peuvent être des marques commerciales de leurs propriétaires respectifs.</block>
+  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Brevets</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Vous trouverez une liste actuelle des brevets appartenant à NetApp à l'adresse suivante :</block>
+  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Politique de confidentialité</block>
+  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Source ouverte</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Les fichiers de notification fournissent des informations sur les droits d'auteur et les licences de tiers utilisés dans le logiciel NetApp.</block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">Note pour BlueXP</block>
+  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="paragraph"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
+  <block id="bf5d97d0f930d16c4814a56d0ffddf42" category="sidebar">Documentation Cloud Volumes Service pour Google Cloud</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Notes de mise à jour</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Commencez</block>
+  <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">Démarrage rapide</block>
+  <block id="edbcf53081d21cc9d84e0c1b1c31c425" category="sidebar">Créer un environnement de travail</block>
+  <block id="281fd4ddeb5136e8243177da6481be31" category="sidebar">Utilisez Cloud Volumes Service pour Google Cloud</block>
+  <block id="97303bb797c628e0c8d96db52408999b" category="sidebar">Déposer Cloud Volumes Service</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Connaissances et support</block>
+  <block id="b2926ec1332a3412430ef48cae1f9bc2" category="sidebar">Utiliser Cloud Volumes Service</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Communauté sur les blogs</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Communauté NetApp</block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">Blog BlueXP</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Webinaires sur le cloud</block>
+  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Toute la documentation BlueXP</block>
+</blocks>

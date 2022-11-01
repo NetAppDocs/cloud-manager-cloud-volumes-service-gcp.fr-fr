@@ -1,0 +1,83 @@
+---
+sidebar: sidebar 
+permalink: task-manage-volumes.html 
+keywords: manage volumes, mount command, delete volume, edit volume, edit snapshot policy 
+summary: Vous pouvez gérer les volumes existants à mesure que vos besoins de stockage changent. Vous pouvez afficher, modifier, restaurer et supprimer des volumes. 
+---
+= Gérer les volumes existants
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Vous pouvez gérer les volumes existants à mesure que vos besoins de stockage changent. Vous pouvez afficher, modifier, restaurer et supprimer des volumes.
+
+.Étapes
+. Ouvrir l'environnement de travail.
+. Placez le pointeur de la souris sur le volume.
++
+image:screenshot_cvs_gcp_volume_hover_menu.png["Capture d'écran du menu contextuel du volume qui permet d'effectuer des tâches de volume"]
+
+. Gérez vos volumes :
++
+[cols="30,70"]
+|===
+| Tâche | Action 
+
+
+| Afficher des informations sur un volume | Cliquez sur *Info*. 
+
+
+| Modification d'un volume (y compris la règle Snapshot)  a| 
+.. Cliquez sur *Modifier*.
+.. Modifiez les propriétés du volume, puis cliquez sur *mettre à jour*.
+
+
+
+
+| Procurez-vous la commande NFS ou SMB mount  a| 
+.. Cliquez sur *montez le volume*.
+.. Cliquez sur *Copier* pour copier la ou les commandes.
+
+
+
+
+| Créez une copie Snapshot à la demande  a| 
+.. Cliquez sur *Créer une copie snapshot*.
+.. Modifiez le nom, si nécessaire, puis cliquez sur *Créer*.
+
+
+
+
+| Remplacez le volume par le contenu d'une copie Snapshot  a| 
+.. Cliquez sur *revenir au snapshot*.
+.. Sélectionnez une copie Snapshot et cliquez sur *Restaurer*.
+
+
+
+
+| Supprimez une copie Snapshot  a| 
+.. Cliquez sur *Supprimer une copie snapshot*.
+.. Sélectionnez l'instantané et cliquez sur *Supprimer*.
+.. Cliquez à nouveau sur *Supprimer* lorsque vous êtes invité à confirmer.
+
+
+
+
+| Supprimer un volume  a| 
+.. Démonter le volume de tous les clients :
++
+*** Sur les clients Linux, utilisez `umount` commande.
+*** Sur les clients Windows, cliquez sur *déconnecter le lecteur réseau*.
+
+
+.. Sélectionnez un volume, puis cliquez sur *Supprimer*.
+.. Cliquez à nouveau sur *Supprimer* pour confirmer.
+
+
+|===
+
