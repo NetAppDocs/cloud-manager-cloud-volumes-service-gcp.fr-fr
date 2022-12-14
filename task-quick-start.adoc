@@ -16,18 +16,21 @@ summary: 'Pour commencer rapidement, suivez ces étapes ou suivez les liens ci-d
 [role="lead"]
 Pour commencer rapidement, suivez ces étapes ou suivez les liens ci-dessous pour obtenir plus d'informations.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Une seule"] Activez l'API Cloud Volumes Service
 [role="quick-margin-para"]
 Depuis Google, activez l'API Cloud Volumes Service pour GCP afin que BlueXP puisse gérer les abonnements et les volumes cloud.
 
 [role="quick-margin-para"]
 link:task-set-up-google-cloud.html["Découvrez comment activer l'API"].
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Deux"] Créez un compte de service GCP et téléchargez les identifiants
 [role="quick-margin-para"]
 Depuis Google, créez un compte de service et un rôle afin que BlueXP puisse accéder à votre compte Cloud Volumes Service pour Google Cloud.
 
 [role="quick-margin-para"]
 link:task-set-up-google-cloud.html#set-up-a-service-account["Découvrez comment configurer un compte de service"].
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["Trois"] Créez un environnement de travail Cloud Volumes Service pour GCP
 [role="quick-margin-para"]
 Dans BlueXP, cliquez sur *Ajouter un environnement de travail* > *Google Cloud* > *Cloud Volumes Service*, puis fournissez des détails sur le compte de service et le projet Google Cloud.
 

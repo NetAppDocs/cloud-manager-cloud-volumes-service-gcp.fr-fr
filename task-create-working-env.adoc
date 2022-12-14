@@ -23,6 +23,7 @@ Si des volumes cloud existent déjà pour cet abonnement, les volumes apparaîtr
 
 TIP: Si vous avez des abonnements et des volumes dans plusieurs projets Google Cloud, vous devez effectuer cette tâche pour chaque projet.
 
+.Avant de commencer
 Vous devez disposer des informations suivantes lors de l'ajout d'un abonnement pour chaque projet :
 
 * Identifiants de compte de service (clé privée JSON que vous avez téléchargée)
@@ -48,6 +49,7 @@ image:screenshot_add_cvs_gcp_credentials.png["Capture d'écran indiquant l'ajout
 
 
 
+.Résultat
 BlueXP affiche votre environnement de travail Cloud Volumes Service pour Google Cloud.
 
 image:screenshot_cvs_gcp_cloud.png["Copie d'écran de l'environnement de travail Cloud Volumes Service pour Google Cloud."]
@@ -56,4 +58,5 @@ Si des volumes cloud existent déjà pour cet abonnement, les volumes apparaisse
 
 Si aucun volume cloud n'existe pour cet abonnement, créez-les dès maintenant.
 
+.Et la suite ?
 link:task-create-volumes.html["Démarrer la création de volumes"].

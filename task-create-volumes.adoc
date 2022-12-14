@@ -110,6 +110,7 @@ Découvrez comment link:task-manage-snapshots.html["création d'une règle de sn
 . Cliquez sur *Ajouter un volume*.
 
 
+.Résultat
 Le nouveau volume est ajouté à l'environnement de travail.
 
 Poursuivre le montage du volume cloud.
